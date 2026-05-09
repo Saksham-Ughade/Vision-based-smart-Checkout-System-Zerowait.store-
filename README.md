@@ -73,7 +73,7 @@ No cashier. No RFID tags. No proprietary hardware lock-in.
 
 | Kiosk UI on iPad | Prototype in Action |
 |:---:|:---:|
-| ![ZeroWait Kiosk UI on iPad showing live camera feed with Your Bill panel and Pay Now button]("docs/images/img3.jpeg") | ![Student placing a grocery item onto the ZeroWait smart checkout tray with kiosk iPad visible]("docs/images/img4.jpeg") |
+| ![ZeroWait Kiosk UI on iPad showing live camera feed with Your Bill panel and Pay Now button]![Kiosk UI](docs/images/img3.jpeg) | ![Student placing a grocery item onto the ZeroWait smart checkout tray with kiosk iPad visible]![Prototype](docs/images/img4.jpeg) |
 | *Live 800×450 feed + bill panel on zerowait.store* | *Item placed on tray — ESP32 fires MQTT weight event* |
 
 </div>
@@ -84,8 +84,7 @@ No cashier. No RFID tags. No proprietary hardware lock-in.
 
 ### Full-Stack Software & Cloud Ecosystem
 
-![ZeroWait Comprehensive Full-Stack Software and Cloud Ecosystem Diagram showing Edge Infrastructure with ESP32 and Kiosk, Store Network with MQTT and AI, and Payment and Billing Services via Razorpay and SMTP]("docs/images/img2.jpeg")
-
+![ZeroWait Comprehensive Full-Stack Software and Cloud Ecosystem Diagram showing Edge Infrastructure with ESP32 and Kiosk, Store Network with MQTT and AI, and Payment and Billing Services via Razorpay and SMTP]![Architecture](docs/images/img2.jpeg)
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        SENSING LAYER (Edge)                          │
@@ -122,8 +121,7 @@ No cashier. No RFID tags. No proprietary hardware lock-in.
 
 ## Hardware Components
 
-![ZeroWait Smart Checkout Advanced System Specifications and Architecture — showing Raspberry Pi 5 Edge AI Gateway, ESP32 Wireless Sensor Node, TAL220 Precise Weight Sensing Unit with HX711, and Pi Camera Module 3 Item Recognition Unit]("docs/images/img1.jpeg")
-
+![ZeroWait Smart Checkout Advanced System Specifications and Architecture — showing Raspberry Pi 5 Edge AI Gateway, ESP32 Wireless Sensor Node, TAL220 Precise Weight Sensing Unit with HX711, and Pi Camera Module 3 Item Recognition Unit]![Hardware](docs/images/img1.jpeg)
 ### A — Edge AI Gateway: Raspberry Pi 5
 
 | Spec | Value |
@@ -211,8 +209,7 @@ zerowait.store (Central Hub)
 
 ### IoT Architecture — 3-Layer System Diagram
 
-![IoT-based ZeroWait Smart Checkout Diagram showing Sensing Layer with Weight Sensor Unit and Pi Camera, Processing and Data Gateway Layer with ESP32 and Raspberry Pi 5, and Application and Communication Layer with Mosquitto Broker, zerowait.store Dashboard, and Cloud Data Lake]("docs/images/img5.jpeg")
-
+![IoT-based ZeroWait Smart Checkout Diagram showing Sensing Layer with Weight Sensor Unit and Pi Camera, Processing and Data Gateway Layer with ESP32 and Raspberry Pi 5, and Application and Communication Layer with Mosquitto Broker, zerowait.store Dashboard, and Cloud Data Lake]![IoT Diagram](docs/images/img5.jpeg)
 ### MQTT Data Flow
 
 ```
