@@ -59,7 +59,7 @@ A customer places an item on the checkout tray. Within milliseconds:
 3. The AI model classifies the item (99.1% mAP@50) and the **mass-visual correlation engine** cross-references the vision label against the weight to prevent spoofing
 4. The item is added to the customer's cart on the **browser-native kiosk UI**
 5. The customer taps **"Checkout & Pay"** — a **Razorpay** overlay handles payment in under 2 seconds
-6. A **webhook confirms payment**, the cart clears, the receipt is stored in **Amazon S3 + PostgreSQL**, and an **HTML email** is dispatched via SMTP
+
 
 No cashier. No RFID tags. No proprietary hardware lock-in.
 
