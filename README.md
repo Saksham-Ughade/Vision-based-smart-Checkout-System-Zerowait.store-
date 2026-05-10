@@ -121,7 +121,7 @@ No cashier. No RFID tags. No proprietary hardware lock-in.
 
 ## Hardware Components
 
-![ZeroWait Smart Checkout Advanced System Specifications and Architecture — showing Raspberry Pi 5 Edge AI Gateway, ESP32 Wireless Sensor Node, TAL220 Precise Weight Sensing Unit with HX711, and Pi Camera Module 3 Item Recognition Unit]![Hardware](docs/images/img1.jpeg)
+![ZeroWait Smart Checkout Advanced System Specifications and Architecture — showing Raspberry Pi 5 Edge AI Gateway, ESP32 Wireless Sensor Node, TAL220 Precise Weight Sensing Unit with HX711, and Pi Camera Module 3 Item Recognition Unit]![Hardware](docs/images/img3.jpeg)
 ### A — Edge AI Gateway: Raspberry Pi 5
 
 | Spec | Value |
